@@ -1,0 +1,4 @@
+{
+  "name": "setting-ext",
+  "welcome": "Bienvenue dans l'extension {{TARGET}}!"
+}
