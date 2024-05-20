@@ -1,0 +1,114 @@
+.collapsible-section > .Polaris-ShadowBevel {
+  border-radius: 12px;
+}
+
+.collapsible-section-header {
+  display: flex;
+  gap: 4px;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+
+.collapsible-section-header > span {
+  color: rgba(253, 75, 146, 1);
+  margin: 0;
+}
+
+.collapsible-section-header > h6 {
+  color: rgba(253, 75, 146, 1);
+  flex: 1;
+}
+
+.form-grid {
+  display: flex;
+  gap: 16px;
+}
+
+@media only screen and (max-width: 768px) {
+  .form-grid {
+    display: block;
+  }
+}
+
+.form-grid .form-grid-col {
+  flex: 1;
+}
+
+.color-picker-block {
+  position: relative;
+}
+
+.color-picker-block > input[type="color"] {
+  position: absolute;
+  bottom: 0;
+  right: 1px;
+  z-index: 99;
+  height: 32px;
+  width: 32px;
+  border: none;
+  outline: none;
+  padding: 0;
+  border-color: transparent;
+  border-radius: 32px;
+  background-color: transparent;
+}
+
+.tab-block .Polaris-Box {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.tab-block .Polaris-Box .Polaris-Tabs {
+  padding-left: 0;
+  padding-right: 0;
+  gap: 0;
+  width: 100%;
+}
+
+.tab-block .Polaris-Box .Polaris-Tabs .Polaris-Tabs__TabContainer {
+  border-radius: 0;
+}
+
+.tab-block
+  .Polaris-Box
+  .Polaris-Tabs
+  .Polaris-Tabs__TabContainer
+  .Polaris-Tabs__Tab {
+  color: grey;
+  border-radius: 0;
+  border-bottom: 2px solid lightgrey;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.tab-block
+  .Polaris-Box
+  .Polaris-Tabs
+  .Polaris-Tabs__TabContainer
+  .Polaris-Tabs__Tab:hover {
+  background: none;
+}
+
+.tab-block
+  .Polaris-Box
+  .Polaris-Tabs
+  .Polaris-Tabs__TabContainer
+  .Polaris-Tabs__Tab--active {
+  background: none;
+  color: black;
+  border-color: rgba(253, 75, 146, 1);
+}
+
+input[type="color"] {
+  -webkit-appearance: none;
+  border: none;
+  width: 32px;
+  height: 32px;
+}
+input[type="color"]::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+input[type="color"]::-webkit-color-swatch {
+  border: none;
+  border-radius: 8px;
+}
